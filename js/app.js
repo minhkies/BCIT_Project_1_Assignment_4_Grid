@@ -28,7 +28,7 @@ for (i = 0; i < coll.length; i++) {
 
 document.getElementById("defaultOpen").click();
 
-function openCity(evt, tabName) {
+function openTab(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 

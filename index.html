@@ -90,7 +90,7 @@
                 <h4>Ask us what we can do for you</h4>
             </header>
             <div class="service">
-                <img src="img/theme/solution-img.png" alt="icon" />
+                <div class="service_image solution_image"></div>
                 <h3>Web Solutions</h3>
                 <p>
                     We are a fairly small, flexible design studio that designs for
@@ -99,7 +99,7 @@
                 </p>
             </div>
             <div class="service">
-                <img src="img/theme/photography-img.png" alt="icon" />
+                <div class="service_image photography_image"></div>
                 <h3>Photography</h3>
                 <p>
                     We are a fairly small, flexible design studio that designs for
@@ -108,7 +108,7 @@
                 </p>
             </div>
             <div class="service">
-                <img src="img/theme/dev-img.png" alt="icon" />
+                <div class="service_image development_image"></div>
                 <h3>Web Development</h3>
                 <p>
                     We are a fairly small, flexible design studio that designs for
@@ -117,7 +117,7 @@
                 </p>
             </div>
             <div class="service">
-                <img src="img/theme/design-img.png" alt="icon" />
+                <div class="service_image design_image"></div>
                 <h3>Web Design</h3>
                 <p>
                     We are a fairly small, flexible design studio that designs for
@@ -133,7 +133,7 @@
             </header>
             <div class="blog-slider">
                 <article class="blog-entry">
-                    <time datetime="2013-05-14">29 Nov. 2013</time>
+                    <time datetime="2013-05-14"><span>29</span><br> Nov. 2013</time>
                     <div>
                         <h2>Sample Image Post</h2>
                         <h3>Photography</h3>
@@ -141,7 +141,7 @@
                     </div>
                 </article>
                 <article class="blog-entry">
-                    <time datetime="2013-05-14">29 Nov. 2013</time>
+                    <time datetime="2013-05-14"><span>29</span><br> Nov. 2013</time>
                     <div>
                         <h2>Sample Image Post</h2>
                         <h3>Photography</h3>
@@ -149,7 +149,7 @@
                     </div>
                 </article>
                 <article class="blog-entry">
-                    <time datetime="2013-05-14">29 Nov. 2013</time>
+                    <time datetime="2013-05-14"><span>29</span><br> Nov. 2013</time>
                     <div>
                         <h2>Sample Image Post</h2>
                         <h3>Photography</h3>
@@ -157,7 +157,7 @@
                     </div>
                 </article>
                 <article class="blog-entry">
-                    <time datetime="2013-05-14">29 Nov. 2013</time>
+                    <time datetime="2013-05-14"><span>29</span><br> Nov. 2013</time>
                     <div>
                         <h2>Sample Image Post</h2>
                         <h3>Photography</h3>
@@ -168,7 +168,7 @@
         </section><!-- blog -->
         <section class="projects">
             <header class="project-header">
-                <h2>what's up lately</h2>
+                <h2>What's up lately</h2>
                 <h4>Client happy? We are happy</h2>
             </header>
             <article class="project">
@@ -220,150 +220,175 @@
                 <h4>Misc stuff we cannot put anywhere else</h4>
             </header>
             <div class="accordions">
-                <button class="collapsible">Feature 1</button>
+                <button class="collapsible">Simple Accordion Menu</button>
                 <div class="accordion-content">
+                    <img src="img/theme/light-bulb-on.png">
+                    <h3>Web Solution</h3>
                     <p>explanation of feature 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <button class="collapsible">Feature 2</button>
+                <button class="collapsible">Simple Accordion Menu</button>
                 <div class="accordion-content">
+                    <img src="img/theme/light-bulb-on.png">
+                    <h3>Web Solution</h3>
                     <p>explanation of feature 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <button class="collapsible">Feature 3</button>
+                <button class="collapsible">Simple Accordion Menu</button>
                 <div class="accordion-content">
+                    <img src="img/theme/light-bulb-on.png">
+                    <h3>Web Solution</h3>
                     <p>explanation of feature 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
             <div class="info-tabs">
                 <div class="tab">
-                    <button class="tab-links" onclick="openCity(event, 'tab1')" id="defaultOpen">Tab1</button>
-                    <button class="tab-links" onclick="openCity(event, 'tab2')">Tab2</button>
-                    <button class="tab-links" onclick="openCity(event, 'tab3')">Tab3</button>
+                    <button class="tab-links" onclick="openTab(event, 'tab1')" id="defaultOpen">Tab1</button>
+                    <button class="tab-links" onclick="openTab(event, 'tab2')">Tab2</button>
+                    <button class="tab-links" onclick="openTab(event, 'tab3')">Tab3</button>
                 </div>
                 <div id="tab1" class="tab-content">
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
+                    <div class="content-in-tab">
+                        <img src="img/theme/flask.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/padlock.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/computer.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/open-box.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
                 </div><!-- tab-content -->
                 <div id="tab2" class="tab-content">
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
+                    <div class="content-in-tab">
+                        <img src="img/theme/padlock.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/flask.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/computer.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/open-box.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
                 </div><!-- tab-content -->
                 <div id="tab3" class="tab-content">
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
-                    <img src="img/icon.png" alt="icon" />
-                    <p>
-                        We are a fairly small, flexible design studio that designs for
-                        print and web. We work flexibly with clients to fulfil their design needs.
-                        Whether you need to create a brand from scratch, including marketing
-                        materials.
-                    </p>
+                    <div class="content-in-tab">
+                        <img src="img/theme/padlock.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/flask.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/open-box.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
+                    <div class="content-in-tab">
+                        <img src="img/theme/computer.png" alt="icon" />
+                        <p>
+                            We are a fairly small, flexible design studio that designs for
+                            print and web. We work flexibly with clients to fulfil their design needs.
+                            Whether you need to create a brand from scratch, including marketing
+                            materials.
+                        </p>
+                    </div>
                 </div><!-- tab-content -->
             </div><!-- info-tabs -->
         </div><!-- other-info -->
         <section class="clients">
-            <div class="client">
-                <img src="img/netbeansIcon.png" alt="logo" class="assort-logo" />
+            <div class="client google-client">
             </div>
-            <div class="client">
-                <img src="img/netbeansIcon.png" alt="logo" class="assort-logo" />
+            <div class="client huawei-client">
             </div>
-            <div class="client">
-                <img src="img/netbeansIcon.png" alt="logo" class="assort-logo" />
+            <div class="client amazon-client">
             </div>
-            <div class="client">
-                <img src="img/netbeansIcon.png" alt="logo" class="assort-logo" />
+            <div class="client baidu-client">
             </div>
-            <div class="client">
-                <img src="img/netbeansIcon.png" alt="logo" class="assort-logo" />
+            <div class="client samsung-client">
             </div>
         </section><!-- clients -->
         <footer class="page-footer">
             <div class="footer-container">
                 <div class="CEO-info">
-                    <img src="img/ceo.jpg" alt="ceo" />
+                    <img src="img/theme/ceo.jpg" alt="ceo" />
                     <h2>Peewee Herman</h2>
-                    <p>
-                        Peewee has over 10 years experience in the industry. He is
-                        our Creative Director, digital designer, web designer and
-                        front-end developer. He is also pretty good with a sketchbook.
-                        Before starting the company Peewee worked as a designer and
-                        studio manager for a design house who boasted a number of
-                        big name clients.
+                    <p><i>
+                            Peewee has over 10 years experience in the industry. He is
+                            our Creative Director, digital designer, web designer and
+                            front-end developer. He is also pretty good with a sketchbook.
+                            Before starting the company Peewee worked as a designer and
+                            studio manager for a design house who boasted a number of
+                            big name clients.</i>
                     </p>
                 </div>
                 <div class="about-us">
-                    <h3>about us</h3>
+                    <h3>About us</h3>
                     <p>
                         Minions ipsum potatoooo potatoooo uuuhhh. Chasy poulet
                         tikka masala jiji wiiiii hahaha po kass tulaliloo
@@ -372,52 +397,49 @@
                         chasy. Pepete uuuhhh hahaha gelatooo belloo!
                         Bananaaaa aaaaaah butt.
                     </p>
-                    <ul class="social-nav">
-                        <li>
-                            <a href="#">facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">google+</a>
-                        </li>
-                        <li>
-                            <a href="#">twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">instagram</a>
-                        </li>
-                        <li>
-                            <a href="#">RSS</a>
-                        </li>
-                    </ul>
+                    <div class="social-nav">
+                        <a href="#"><img src="img/theme/facebook.png"></a>
+                        <a href="#"><img src="img/theme/google-plus.png"></a>
+                        <a href="#"><img src="img/theme/twitter.png"></a>
+                        <a href="#"><img src="img/theme/instagram.png"></a>
+                        <a href="#"><img src="img/theme/rss.png"></a>
+                    </div>
                 </div><!-- about-us -->
                 <div class="instagram">
-                    <h3>instagram</h3>
+                    <h3>Instagram</h3>
                     <div class="instagram-list">
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-1">
                         </div>
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-2">
                         </div>
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-3">
                         </div>
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-4">
                         </div>
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-5">
                         </div>
-                        <div class="instagram-item">
-                            <h4>image</h4>
+                        <div class="instagram-item insta-6">
                         </div>
                     </div>
                 </div>
                 <div class="tweets">
                     <h3>Tweets</h3>
+                    <div class="tweet tweet-1">
+                        <img src="img/theme/twitter-logo.png" alt="twitter">
+                        <p><a href="#">@QuynhAka</a> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="tweet tweet-2">
+                        <img src="img/theme/twitter-logo.png" alt="twitter">
+                        <p><a href="#">@QuynhAka</a> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </div>
-                <div class="newsletter">
+                <div class="Newsletter">
                     <h3>newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <div class="news-inp">
+                        <input type="text" placeholder="Enter your email...">
+                        <a href="#"><img src="img/theme/sent-mail.png"></a>
+                    </div>
                 </div>
                 <img class="footer-img" src="img/theme/bg_page_footer.png">
             </div>
